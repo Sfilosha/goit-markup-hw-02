@@ -1,0 +1,58 @@
+ /* #region Root */
+ :root {
+    --cl-primary-color: #4D5AE5;
+    --cl-pressed-state: #404BBF;
+    --cl-dark: #2E2F42;
+    --cl-success: #31D0AA;
+    --cl-text: #434455;
+    --cl-subtle-text: #8E8F99;
+    --cl-accent: #E7E9FC;
+    --cl-light: #F4F4FD;
+    --cl-modal-overlay: #2E2F42;
+    --cl-hero-background: #2E2F42;
+    --cl-white-bg: #FFFFFF;
+    --cl-modal-bg: #FCFCFC;
+
+ }
+   
+ /* #endregion Root */
+ 
+ /* #region  */
+
+   body {
+       font-family: 'Roboto', sans-serif;
+       color: var(--cl-text);
+       background-color: var(--cl-white-bg);
+   }
+
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+       font-family: 'Tahoma';
+   }
+
+   ul,
+   ol {
+       list-style-type: none;
+   }
+
+ /* #endregion */
+
+ /* #region classes */
+
+ .logo {
+    color: var(--cl-primary-color)
+ }
+
+ .logo-dark {
+    color: var();
+ }
+
+ .logo-light {
+    color: var();
+ }
+   
+ /* #endregion classes*/
