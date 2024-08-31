@@ -17,7 +17,7 @@
    
  /* #endregion Root */
  
- /* #region  */
+ /* #region Base */
 
    body {
        font-family: 'Roboto', sans-serif;
@@ -39,9 +39,13 @@
        list-style-type: none;
    }
 
- /* #endregion */
+ /* #endregion Base */
 
- /* #region classes */
+ /* #region Nav */
+
+ .header {}
+
+ .nav {}
 
  .logo {
     color: var(--cl-primary-color)
@@ -51,8 +55,58 @@
     color: var();
  }
 
- .logo-light {
-    color: var();
- }
-   
+  .logo-light {
+      color: var();
+  }
+
+ .nav-list {}
+
+ .nav-list-item {}
+
+ .nav-link {}
+
+ .address {}
+
+ .address-list {}
+
+ .address-list-item {}
+
+ .address-link {}
+
+ .hero {}
+
+ .hero-title {}
+
+ .hero-button {}
+
+ .values {}
+
+ .values-title {}
+
+ .values-list {}
+
+ .values-list-item {}
+
+ .values-subtitle {}
+
+ .values-text {}
+
+ .team {}
+
+ .team-title {}
+
+ .team-list {}
+
+ .team-list-item {}
+
+ .team-image {}
+
+ .team-subtitle {}
+
+ .team-role {}
+
+ .footer {}
+
+ .text-footer {}
  /* #endregion classes*/
+
