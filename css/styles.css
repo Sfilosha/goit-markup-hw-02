@@ -62,7 +62,6 @@
 
    button {
     cursor: pointer;
-    border: 0; 
     font-family: inherit;
     color: currentColor;
     background-color: inherit;
