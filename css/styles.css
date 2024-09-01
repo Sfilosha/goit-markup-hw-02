@@ -26,27 +26,27 @@
        font-family: var(--main-font);
        color: var(--cl-text);
        background-color: var(--cl-white-bg);
-       letter-spacing: 2%;
+       letter-spacing: 0.02em;
        line-height: 1.5;
    }
 
    h1 {
     font-size: 56px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
    }
 
    h2 {
     color: var(--cl-dark);
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
    }
 
    h3 {
     color: var(--cl-dark);
     font-size: 20px;
     font-weight: 500;
-    letter-spacing: 2%;
-    line-height: 1.2;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
    }
 
    a {
@@ -75,8 +75,8 @@
         font-family: var(--secondary-font);
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.2;
-        letter-spacing: 3%;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--cl-primary-color);
     }
@@ -99,11 +99,11 @@
  .nav-list {}
 
  .nav-list-item {
-
  }
 
  .nav-link {
         font-weight: 500;
+        letter-spacing: 0.02em;
         color: var(--cl-dark);
  }
 
@@ -119,7 +119,9 @@
  .address-list-item {}
 
  .address-link {
-    color: var(--cl-dark);
+    color: var(--cl-text);
+    font-style: normal;
+    letter-spacing: 0.02em;
  }
 
  .address-link:hover,
@@ -135,12 +137,14 @@
 
  .hero-title {
     color: var(--cl-white-bg);
+    line-height: 1.07;
+    text-align: center;
  }
 
  .hero-button {
     border-radius: 4px;
     font-weight: 500;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     line-height: 1.5;
     
     background-color: var(--cl-primary-color);
@@ -179,11 +183,16 @@
      background-color: var(--cl-light);
  }
 
- .team-title {}
+ .team-title {
+    text-align: center;
+    text-transform: capitalize;
+ }
 
  .team-list {}
 
- .team-list-item {}
+ .team-list-item {
+    background-color: var(--cl-light);
+ }
 
  .team-image {}
 
