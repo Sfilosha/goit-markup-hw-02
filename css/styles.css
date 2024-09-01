@@ -90,7 +90,7 @@
     }
  /* #endregion Base */
 
- /* #region Nav */
+ /* #region Navigation */
 
  .header {}
 
@@ -126,7 +126,9 @@
  .address-link:focus {
     color: var(--cl-pressed-state);
  }
+    /* #endregion Navigation */
 
+/* #region Hero */
  .hero {
     background-color: var(--cl-dark);
  }
@@ -151,6 +153,9 @@
     color: var(--cl-white-bg);
  }
 
+ /* #endregion Hero */
+
+ /* #region Values */
  .values {}
 
  .values-title {
@@ -166,12 +171,15 @@
 
  .values-text {}
 
+ /* #endregion Values */
+
+ /* #region Team */
+
  .team {
-    background-color: var(--cl-light);
+     background-color: var(--cl-light);
  }
 
- .team-title {
- }
+ .team-title {}
 
  .team-list {}
 
@@ -179,25 +187,31 @@
 
  .team-image {}
 
- .team-subtitle {
- }
+ .team-subtitle {}
 
- .team-role {
- }
+ .team-role {}
+   
+ /* #endregion Team*/
 
+ /* #region Portfolio  */
+   
  .portfolio-title {}
 
- .portfolio-cases {}
+.portfolio-cases {}
 
- .portfolio-list-item {}
+.portfolio-list-item {}
 
- .portfolio-link {}
+.portfolio-link {}
 
- .portfolio-image {}
+.portfolio-image {}
 
- .portfolio-subtitle {}
+.portfolio-subtitle {}
 
- .potfolio-descriptor {}
+.potfolio-descriptor {}
+
+ /* #endregion Portfolio */
+
+ /* #region Footer */
 
  .footer {
     background-color: var(--cl-dark);
@@ -206,5 +220,5 @@
  .text-footer {
     color: var(--cl-light);
  }
- /* #endregion classes*/
+ /* #endregion Footer*/
 
