@@ -218,7 +218,9 @@
 
 .portfolio-cases {}
 
-.portfolio-list-item {}
+.portfolio-list-item {
+    background-color: var(--cl-white);
+}
 
 .portfolio-link {}
 
